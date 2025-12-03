@@ -11,7 +11,7 @@ def create_chunk(uploaded_file):
     splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     chunks = splitter.split_documents(docs)
 
-    chunks_dir = "C:\\Users\\vansh\\Amlgo_RAG_project\\chunks"
+    chunks_dir = "C:\\Users\\Kalia\\RAG_project\\chunks"
     os.makedirs(chunks_dir, exist_ok=True)
 
     for i, chunk in enumerate(chunks):
