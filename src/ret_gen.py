@@ -5,9 +5,9 @@ import glob
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import PromptTemplate
 
-chunks_dir = "C:\\Users\\vansh\\Amlgo_RAG_project\\chunks"
-vectordb_dir = "C:\\Users\\vansh\\Amlgo_RAG_project\\vectordb"
-data_dir = "C:\\Users\\vansh\\Amlgo_RAG_project\\data"
+chunks_dir = "C:\\Users\\Kalia\\RAG_project\\chunks"
+vectordb_dir = "C:\\Users\\Kalia\\RAG_project\\vectordb"
+data_dir = "C:\\Users\\Kalia\\RAG_project\\data"
 
 model = "llama3.1:latest"
 llm = OllamaLLM(model=model)
